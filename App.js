@@ -15,7 +15,6 @@ export default function App() {
   };
 
   const deleteGoalHandler = (id) => {
-    console.log("DELETE ITEM HERE!");
     setGoals((currentGoals) => {
       return currentGoals.filter((goal) => goal.id !== id);
     });
