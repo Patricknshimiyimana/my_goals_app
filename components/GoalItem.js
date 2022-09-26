@@ -18,7 +18,7 @@ export default GoalItem;
 
 const styles = StyleSheet.create({
   goalItem: {
-    borderWidth: 2,
+    borderWidth: 1,
     backgroundColor: "#373f4d",
     margin: 8,
     borderRadius: 8,
